@@ -1,6 +1,7 @@
 # 📘 Playbook Executivo: Arquitetura de Busca no Varejo Digital - Transição de SEO para AEO e GEO
 
 **Autor(a):** Renáli Cozaciski Cavalcante
+
 **Contato/LinkedIn:** https://www.linkedin.com/in/renali-cozaciski/
 
 ---
