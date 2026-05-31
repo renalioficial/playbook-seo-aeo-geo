@@ -3,6 +3,7 @@
 **Autor(a):** Renáli Cozaciski Cavalcante
 
 **Contato/LinkedIn:** https://www.linkedin.com/in/renali-cozaciski/
+
 ---
 
 ## Nota Pessoal:
