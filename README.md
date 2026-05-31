@@ -59,13 +59,21 @@ Abaixo apresento o resultado final consolidado das extrações feitas no Noteboo
 ### Resumos Estruturados do Assunto
 *Caso de Estudo para aplicação das regras: **Geladeira FrostX Side by Side 500L Inox**.*
 
-*   **Fase 1 - Fundação Técnica e Legibilidade para IA:** Para que a Inteligência Artificial cite seus produtos, ela precisa conseguir lê-los via backend em milissegundos (conforme validado pelo benchmark da Prerender). É necessário migrar do schema clássico `Product` para dados estruturados mais densos (ex: `EnergyConsumptionDetails`). No caso da FrostX, as IAs filtrarão o JSON-LD buscando atributos brutos como "Selo Procel A+++" e "Motor Inverter" antes de fazer uma recomendação.<img width="545" height="301" alt="image" src="https://github.com/user-attachments/assets/d5b361b0-5808-4e4c-915d-876fcc3f7d89" />
+*   **Fase 1 - Fundação Técnica e Legibilidade para IA:** Para que a Inteligência Artificial cite seus produtos, ela precisa conseguir lê-los via backend em milissegundos (conforme validado pelo benchmark da Prerender). É necessário migrar do schema clássico `Product` para dados estruturados mais densos (ex: `EnergyConsumptionDetails`). No caso da FrostX, as IAs filtrarão o JSON-LD buscando atributos brutos como "Selo Procel A+++" e "Motor Inverter" antes de fazer uma recomendação.
+<img width="545" height="301" alt="image" src="https://github.com/user-attachments/assets/d5b361b0-5808-4e4c-915d-876fcc3f7d89" />
 
-*   **Fase 2 - Otimização para AEO (Answer-First):** AEO foca em responder dúvidas diretamente. Em vez de subtítulos genéricos ("Filtro de Água"), o catálogo deve adotar perguntas de FAQ estruturadas: *"A geladeira FrostX 500L precisa de ponto de água externo?"*. A resposta deve estar nas primeiras 40 palavras.<img width="547" height="257" alt="image" src="https://github.com/user-attachments/assets/c3479359-3711-4af4-95c9-c8abee502f4f" />
 
-*   **Fase 3 - Densidade de Fatos para GEO:** Modelos de linguagem RAG priorizam dados quantitativos. O resumo de produto precisa transformar alegações subjetivas ("congela muito rápido") em dados absolutos: *"A função TurboFreeze reduz a temperatura do freezer para -20ºC em apenas 45 minutos."*<img width="546" height="257" alt="image" src="https://github.com/user-attachments/assets/88eaf7c8-a552-49f1-b85f-ea0e5f309a52" />
+*   **Fase 2 - Otimização para AEO (Answer-First):** AEO foca em responder dúvidas diretamente. Em vez de subtítulos genéricos ("Filtro de Água"), o catálogo deve adotar perguntas de FAQ estruturadas: *"A geladeira FrostX 500L precisa de ponto de água externo?"*. A resposta deve estar nas primeiras 40 palavras.
+<img width="547" height="257" alt="image" src="https://github.com/user-attachments/assets/c3479359-3711-4af4-95c9-c8abee502f4f" />
 
-*   **Fase 4 - Consenso Off-Site (UGC):** A IA cruza o dado da loja com o "consenso da internet". Reviews genéricos não criam autoridade; a operação deve configurar *prompts* indutivos nos e-mails pós-venda (*"O compressor da sua FrostX é silencioso?"*) para gerar o conteúdo natural que a IA rastreia e valida.<img width="545" height="271" alt="image" src="https://github.com/user-attachments/assets/d5fa1298-6a59-41a9-afc3-16ead64617a5" />
+
+*   **Fase 3 - Densidade de Fatos para GEO:** Modelos de linguagem RAG priorizam dados quantitativos. O resumo de produto precisa transformar alegações subjetivas ("congela muito rápido") em dados absolutos: *"A função TurboFreeze reduz a temperatura do freezer para -20ºC em apenas 45 minutos."*
+<img width="546" height="257" alt="image" src="https://github.com/user-attachments/assets/88eaf7c8-a552-49f1-b85f-ea0e5f309a52" />
+
+
+*   **Fase 4 - Consenso Off-Site (UGC):** A IA cruza o dado da loja com o "consenso da internet". Reviews genéricos não criam autoridade; a operação deve configurar *prompts* indutivos nos e-mails pós-venda (*"O compressor da sua FrostX é silencioso?"*) para gerar o conteúdo natural que a IA rastreia e valida.
+<img width="545" height="271" alt="image" src="https://github.com/user-attachments/assets/d5fa1298-6a59-41a9-afc3-16ead64617a5" />
+
 
 ### Glossário com os Principais Conceitos Aprendidos
 *   **Zero-Click Search:** Jornada de busca onde a resposta é sintetizada e entregue na própria interface do motor (SGE, ChatGPT), sem gerar tráfego de clique para a loja de origem.
