@@ -3,6 +3,14 @@
 **Autor(a):** Renáli Cozaciski Cavalcante
 
 **Contato/LinkedIn:** https://www.linkedin.com/in/renali-cozaciski/
+---
+
+## Nota Pessoal:
+
+Neste desafio, utilizei o NotebookLM como motor de análise de base de conhecimento para processar mais de 20 fontes técnicas e acadêmicas incluindo estudos da Universidade de Princeton, Yotpo e benchmarks da Prerender.
+
+O resultado não é apenas um resumo, mas um Playbook Executivo e Operacional que mapeia a transição do SEO clássico para a era do AEO (Answer Engine Optimization) e GEO (Generative Engine Optimization). O foco principal do material é a aplicação real dessa tecnologia na estruturação de Master Data e catálogos de E-commerce/Marketplaces, garantindo que os produtos sejam a fonte recomendada por LLMs nas jornadas de busca "Zero-Click".
+
 
 ---
 
