@@ -17,6 +17,12 @@ Para o Varejo Digital e Marketplaces, o objetivo operacional mudou: não basta r
 * Documentar o fluxo de extração e validação de insights utilizando o NotebookLM como motor de análise de base de conhecimento.
 
 ---
+**Fases do Projeto**
+
+
+<img width="545" height="301" alt="image" src="https://github.com/user-attachments/assets/d5b361b0-5808-4e4c-915d-876fcc3f7d89" /><img width="547" height="257" alt="image" src="https://github.com/user-attachments/assets/c3479359-3711-4af4-95c9-c8abee502f4f" /><img width="546" height="257" alt="image" src="https://github.com/user-attachments/assets/88eaf7c8-a552-49f1-b85f-ea0e5f309a52" /><img width="545" height="271" alt="image" src="https://github.com/user-attachments/assets/d5fa1298-6a59-41a9-afc3-16ead64617a5" />
+
+---
 
 ## 📚 Curadoria de Fontes
 Para o desenvolvimento das diretrizes operacionais deste material, criei um ambiente isolado no **NotebookLM**, alimentado com **mais de 20 fontes técnicas e acadêmicas** focadas no comportamento de LLMs e arquitetura de busca corporativa. 
@@ -69,3 +75,4 @@ Diretrizes em prompt para apoiar futuras revisões sobre o tema e auditorias ope
 
 **2. Para Otimização GEO e Densidade de Dados:**
 > *"Atue como um especialista em Master Data de varejo. Leia a ficha técnica abaixo e a reestruture focando em 'Densidade de Fatos'. Transforme alegações subjetivas em dados quantitativos e crie uma tabela em Markdown com os diferenciais competitivos formatados para leitura fluida por um modelo RAG."*
+
